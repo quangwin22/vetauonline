@@ -1,0 +1,151 @@
+<div className="width50percent">
+            <div className ="margin20">
+              <div className="d-fix form-group">
+                  <div className="label-form">Mã vé</div>
+                  <input className ="form-control" type="text" placeholder="Nhập mã vé tàu" name="" />
+              </div>
+              <div className="d-fix form-group">
+                  <div className="label-form">Ga đi</div>
+                  <input className ="form-control" type="text" placeholder="Nhập mã ga đi"/>
+              </div>
+              <div className="d-fix form-group">
+                  <div className="label-form">Ngày đi</div>
+                  <DatePicker className ="form-control"
+                      placeholderText="Ngày đi"
+                      />
+              </div>
+              <button className="btn btn-check-price" onClick ={ () => {this.onClickCheckTickit('lala')} }>
+                Kiểm tra vé
+              </button> 
+            </div>
+          </div>
+
+
+
+          ----
+          <div className="width50percent">
+            <div className ="margin20">
+              <div className="d-fix form-group">
+                  <div className="label-form">Mác tàu</div>
+                  <input className ="form-control" type="text" placeholder="Nhập mác tàu"/>
+              </div>
+              <div className="d-fix form-group">
+                  <div className="label-form">Ga đến</div>
+                  <input className ="form-control" type="text" placeholder="Nhập mã ga đến tại đây"/>
+              </div>
+              <div className="d-fix form-group">
+                  <div className="label-form">Số giấy tờ</div>
+                  <input className ="form-control" type="text" placeholder="Nhập giấy tờ cá nhân ghi trên vé"/>
+              </div>
+            </div>
+          </div>
+
+
+historytickit : [
+              {
+                id: 1,
+                stationstart : 'Sài Gòn',
+                stationend: 'Hà Nội',
+                timestart: '09/09/2020 10:00',
+                lst: [
+                  {
+                    id: 1,
+                    toa: 'SE1',
+                    customername: 'Nguyễn Văn A',
+                    cmnd: '652148970',
+                    Loaghe: 'Người  lớn',
+                    seats: '1 chỗ số 24',
+                    typeseast: 'Ngồi mềm điều hòa',
+                    mave: 'SE012564875',
+                    giave: 150000,
+                    giatra: 100000,
+                    loaive: 'Bình thường',
+                    trave: false
+                  }
+                  ,
+                  {
+                    id: 1,
+                    toa: 'SE1',
+                    customername: 'Nguyễn Văn A',
+                    cmnd: '652148970',
+                    Loaghe: 'Người  lớn',
+                    seats: '1 chỗ số 24',
+                    typeseast: 'Ngồi mềm điều hòa',
+                    mave: 'SE012564875',
+                    giave: 150000,
+                    giatra: 100000,
+                    loaive: 'Bình thường',
+                    trave: false
+                  }
+                ]
+              },
+              {
+                id: 2,
+                stationstart : 'Sài Gòn',
+                stationend: 'Hà Nội',
+                timestart: '08/08/2020 08:00',
+                lst: [
+                  {
+                    id:2,
+                    toa: 'SE1',
+                    customername: 'Nguyễn Văn A',
+                    cmnd: '652148970',
+                    Loaghe: 'Người  lớn',
+                    seats: '1 chỗ số 24',
+                    typeseast: 'Ngồi mềm điều hòa',
+                    mave: 'SE012564875',
+                    giave: 150000,
+                    giatra: 100000,
+                    loaive: 'Bình thường',
+                    trave: false
+                  }
+                ]
+              }
+            ]
+
+
+            ----
+
+
+            // "Sài Gòn",
+          // "Dĩ An",
+          // "Long Khánh",
+          // "Suối Vận",
+          // "Bình Thuận",
+          // "Châu Hanh",
+          // "Cà Ná",
+          // "Tháp Chàm",
+          // "Suối Cát",
+          // "Nha Trang",
+          // "Ninh Hòa",
+          // "Phú Hiệp",
+          // "Phước Lãnh",
+          // "Tân Vinh",
+          // "Diêu Trì",
+          // "Bình Định",
+          // "Vạn Phú",
+          // "Sa Huỳnh",
+          // "Hòa Vinh Tây",
+          // "Quảng Ngãi",
+          // "Bình Sơn",
+          // "An Mỹ",
+          // "Lệ Trạch",
+          // "Đà Nẵng",
+          // "Hải Vân",
+          // "Hương Thuỷ",
+          // "Huế",
+          // "Mỹ Chánh",
+          // "Sa Lung",
+          // "Lệ Kỳ",
+          // "Đồng Hới",
+          // "Lệ Sơn",
+          // "Tân Ấp",
+          // "Yên Xuân",
+          // "Vinh",
+          // "Cầu Giát",
+          // "Thanh Hóa",
+          // "Cầu Yên",
+          // "Ninh Bình",
+          // "Nam Định",
+          // "Phú Xuyên",
+          // "Hà Nội"
